@@ -12,3 +12,6 @@ tickerDf = tickerdata.history(period='1d', start='2020-1-1')
 
 st.line_chart(tickerDf.Close)
 st.line_chart(tickerDf.Volume)
+
+'This web app is still a work in progress'
+'this web app will have all the informatin to go along with the tiktok account Investing_101'
