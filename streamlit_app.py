@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd
 
 df = pd.DataFrame({
-  'stock': ["GOOGL", "APPL", "AMZN"],
+  'stock': ["GOOGL", "AAPL", "AMZN"],
 })
 tickerSymbol = st.selectbox("What is the stock your looking for", df['stock'])
 tickerdata = yf.Ticker(tickerSymbol)
